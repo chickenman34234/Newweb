@@ -1,0 +1,31 @@
+@font-face {
+    font-family: titleText;
+    src: url(title.ttf);
+}
+h1 {
+    font-family: titleText;
+    font-size: small;
+    color: white;
+}
+h2 {
+    font-weight: bold;
+    font-size: small;
+    color: blue;
+}
+p {
+    font-size: 1%;
+    color: white;
+    align-content: left;
+}
+body {
+    background-image: url(wild.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: 'Trebuchet MS', 'Sans-Serif';
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    align-content: center;
+}
