@@ -2,18 +2,18 @@
     font-family: titleText;
     src: url(title.ttf);
 }
-h1 {
+@media (orientation: portrait) {
+    h1 {
     font-family: titleText;
-    font-size: small;
     color: white;
+    font-size: small;
 }
 h2 {
     font-weight: bold;
-    font-size: small;
     color: blue;
 }
 p {
-    font-size: 1%;
+    font-size: 40%;
     color: white;
     align-content: left;
 }
@@ -28,4 +28,37 @@ body {
     color: black;
     font-weight: bold;
     align-content: center;
+}
+
+}
+@media (orientation: landscape) {
+    h1 {
+    font-family: titleText;
+    color: white;
+    font-size: normal;
+}
+h2 {
+    font-weight: bold;
+    color: blue;
+}
+p {
+    font-size: 80%;
+    color: white;
+    align-content: left;
+}
+body {
+    background-image: url(wild.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: 'Trebuchet MS', 'Sans-Serif';
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    align-content: center;
+}
+#render {
+    height: 80%;
+}
 }
