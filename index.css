@@ -32,6 +32,10 @@ body {
 
 }
 @media (orientation: landscape) {
+    
+.Dropdown {
+    margin-top:-31px;
+}
     h1 {
     font-family: titleText;
     color: white;
