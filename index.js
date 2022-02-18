@@ -1,1 +1,1 @@
-window.promt("")
+console.log("why are you here go away")
